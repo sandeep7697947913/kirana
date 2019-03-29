@@ -1,0 +1,36 @@
+.logoimg{
+	text-align:center;
+}
+
+.logoimg img{
+	height:100px;
+}
+
+h3{
+	text-shadow:1px 1px 15px blue,-1px -1px 15px red;
+	color:white;
+}
+
+.data{
+	/* border:1px solid red; */
+	width:80%;
+    margin:0px auto;
+    margin-top:50px;
+}
+
+#main{
+	width:80%;
+	text-align:center;
+	/* border:1px solid blue; */
+	margin:0px auto;
+}
+
+a{
+	text-decoration:none;
+	font-size:20px;
+}
+
+a:hover{
+	color:red;
+	text-shadow:2px 2px 5px red;
+}

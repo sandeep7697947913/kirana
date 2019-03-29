@@ -1,0 +1,29 @@
+{
+    "name": "kirana",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "build --dir"
+    },
+    "devDependencies": {
+        "electron": "^4.0.7",
+        "electron-packager": "^13.1.1"
+    },
+    "build": {
+        "appId": "com.example.kirana",
+        "productName": "kirana"
+    },
+    "buildResources":"build",
+    "author":"Sandeep Yadav",
+    "description":"small kirana store",
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "electromon": "^1.0.10",
+        "electron-reload": "^1.4.0",
+        "jquery": "^3.3.1",
+        "jquery-ui": "^1.12.1",
+        "mongodb": "^3.2.2",
+        "mongoose": "^5.4.20"
+    }
+}

@@ -1,0 +1,27 @@
+body{
+    margin:50px;
+}
+
+#msg{
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 56px;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+#logform{
+    display: block;
+}
+
+#rform,#itemform{
+    display: none;
+}
+
+.navigation{
+    margin-bottom: 25px;
+}

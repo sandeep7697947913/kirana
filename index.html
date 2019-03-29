@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="styles/bootstrap.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <title>Kirana</title>
+    </head>
+    <body>
+        <div id='msg'>
+            sandeep
+        </div>
+        <h1 class="text-success offset-1"><i>Kirana</i></h1>
+        <div id='logform' class="container col-md-6">
+            <h6>Login Here</h6>
+            <form>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input id='email' class="form-control" type="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class='form-control' type="password" name="pass" id="pass">
+                </div>
+                <a id='rgfosh' class="ml-4 btn btn-outline-info">Register here</a>
+                <button id='Login' class='float-right mr-4 btn btn-secondary' type="button">Login</button>
+            </form>
+        </div>
+        <div id='rform' class="container col-md-6">
+            <h4>Registraion Form</h4>
+            <form>
+                <div class="form-group">
+                    <label for="name">Store Name</label>
+                    <input id='storename' class="form-control" type="text" name="storename">
+                </div>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input class='form-control' type="email" name="remail" id="remail">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input class='form-control' type="password" name="rpass" id="rpass">
+                </div>
+                <div class="form-row">
+                    <div class="col-sm-4 form-group">
+                        <label>State</label>
+                        <select id='state' class="form-control">
+                            <option value="select"> -select- </option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4 form-group">
+                        <label>City</label>
+                        <select id='city' class="form-control">
+                            <option value="select"> -select- </option>
+                        </select>
+                    </div>
+                    <div class="col-sm-4 form-group">
+                        <label>Pincode</label>
+                        <input id='pincode' type='text' class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input class='form-control' id="address" name='address' type="text">
+                </div>
+                <div class="form-group">
+                    <a id='lgfosh' class="ml-4 btn btn-outline-info">Login Here</a>
+                    <button class='float-right btn btn-secondary' id='Register' type="button">Register</button>
+                </div>
+            </form>
+        </div>
+        <div id='itemform' class="container">
+            <ul class="nav nav-tabs navigation">
+                <li class="nav-item">
+                    <a id='aibtn' class="active nav-link">Add Items</a>
+                </li>
+                <li class="nav-item">
+                    <a id='sid' class="nav-link">Selled Items</a>
+                </li>
+            </ul>
+            <div id='additems' class="container offset-md-1">
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label>Item Name</label>
+                        <input id='ain' type="text" class="form-control" >
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label>price</label>
+                        <input id='aip' type="text" class="form-control" >
+                    </div>
+                    <div class="form-group col-md-1">
+                        <label>Quantity</label>
+                        <input id='aiq' type="text" class="form-control" >
+                    </div>
+                </div>
+                <div class='form-row'>
+                    <div class="form-group col-md-4">
+                        <label>Description</label>
+                        <input id='aid' type="text" class="form-control" >
+                    </div>
+                </div>
+                <button id='sel' class="btn btn-primary">Selled</button>
+            </div>
+            <div class="container" id='table'>
+
+            </div>
+        </div>
+        <!-- <script src='javascripts/index.js'></script> -->
+        <script>
+            require('./javascripts/index.js')
+        </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Item Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+        </tr>
+    </thead>
+    <tbody>
+       <% for( item of items){ %>
+        <tr>
+            <td scope='row'> <%= item.name %> </td>
+            <td> <%= item.description %> </td>
+            <td> <%= item.price+" rs." %> </td>
+            <td> <%= item.quantity %> </td>
+            <% let datetime = new Date(item.date)%>
+            <td> <%= datetime.toDateString() %> </td>
+            <td> <%= datetime.toLocaleTimeString() %> </td>
+        </tr>
+       <% } %>
+    </tbody>
+</table>
